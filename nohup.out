@@ -1,0 +1,3 @@
+/home/yangyouucb/.fastai/data/imagewoof-160
+epoch     train_loss  valid_loss  accuracy  top_k_accuracy  time    
+0         2.134999    2.345839    0.240000  0.710000        00:34     

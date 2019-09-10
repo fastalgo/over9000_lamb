@@ -1,0 +1,153 @@
+/home/yangyouucb/.fastai/data/imagenette-160
+epoch     train_loss  valid_loss  accuracy  top_k_accuracy  time    
+0         1.646547    3.231132    0.354000  0.832000        01:16     
+1         1.472544    1.702939    0.560000  0.902000        01:17     
+2         1.303787    1.478044    0.640000  0.948000        01:20     
+3         1.142486    1.086829    0.758000  0.972000        01:21     
+4         0.986599    0.866638    0.860000  0.986000        01:20     
+/home/yangyouucb/.fastai/data/imagenette-160
+epoch     train_loss  valid_loss  accuracy  top_k_accuracy  time    
+0         1.651439    1.753948    0.444000  0.922000        01:20     
+1         1.481527    2.194261    0.404000  0.868000        01:23     
+2         1.357177    1.308555    0.640000  0.948000        01:18     
+3         1.158444    1.040146    0.782000  0.976000        01:21     
+4         0.995924    0.880276    0.858000  0.972000        01:20     
+/home/yangyouucb/.fastai/data/imagenette-160
+epoch     train_loss  valid_loss  accuracy  top_k_accuracy  time    
+0         1.670188    2.035565    0.454000  0.836000        01:18     
+1         1.464866    2.188102    0.452000  0.884000        01:16     
+2         1.328101    1.994574    0.442000  0.844000        01:18     
+3         1.144415    1.018840    0.806000  0.968000        01:17     
+4         0.970271    0.875549    0.858000  0.980000        01:19     
+/home/yangyouucb/.fastai/data/imagenette-160
+epoch     train_loss  valid_loss  accuracy  top_k_accuracy  time    
+0         1.675827    2.436419    0.378000  0.882000        01:16     
+1         1.463916    2.116284    0.448000  0.862000        01:21     
+2         1.345297    2.076938    0.510000  0.912000        01:17     
+3         1.158245    1.013814    0.796000  0.972000        01:19     
+4         1.000853    0.867536    0.862000  0.986000        01:18     
+/home/yangyouucb/.fastai/data/imagenette-160
+epoch     train_loss  valid_loss  accuracy  top_k_accuracy  time    
+0         1.650766    2.311677    0.404000  0.898000        01:16     
+1         1.460087    2.000914    0.468000  0.920000        01:20     
+2         1.322596    1.365676    0.670000  0.968000        01:19     
+3         1.158236    0.939545    0.840000  0.982000        01:21     
+4         0.995539    0.859647    0.862000  0.982000        01:20     
+/home/yangyouucb/.fastai/data/imagenette-160
+epoch     train_loss  valid_loss  accuracy  top_k_accuracy  time    
+0         1.662341    3.091080    0.338000  0.820000        01:18     
+1         1.467066    1.848427    0.472000  0.874000        01:18     
+2         1.307944    1.448799    0.630000  0.952000        01:20     
+3         1.157650    1.091753    0.764000  0.976000        01:20     
+4         0.989193    0.862104    0.876000  0.984000        01:19     
+/home/yangyouucb/.fastai/data/imagenette-160
+epoch     train_loss  valid_loss  accuracy  top_k_accuracy  time    
+0         1.652170    3.264156    0.378000  0.752000        01:22     
+Traceback (most recent call last):
+  File "/opt/anaconda3/lib/python3.7/multiprocessing/queues.py", line 242, in _feed
+    send_bytes(obj)
+  File "/opt/anaconda3/lib/python3.7/multiprocessing/connection.py", line 200, in send_bytes
+    self._send_bytes(m[offset:offset + size])
+  File "/opt/anaconda3/lib/python3.7/multiprocessing/connection.py", line 404, in _send_bytes
+    self._send(header + buf)
+  File "/opt/anaconda3/lib/python3.7/multiprocessing/connection.py", line 368, in _send
+    n = write(self._handle, buf)
+BrokenPipeError: [Errno 32] Broken pipe
+1         1.433077    1.553928    0.584000  0.950000        01:17     
+2         1.327362    1.910850    0.458000  0.878000        01:16     
+3         1.144486    1.053277    0.782000  0.978000        01:17     
+4         0.975256    0.860290    0.868000  0.986000        01:21     
+/home/yangyouucb/.fastai/data/imagenette-160
+epoch     train_loss  valid_loss  accuracy  top_k_accuracy  time    
+0         1.648871    2.792187    0.358000  0.710000        01:20     
+1         1.441415    1.754220    0.492000  0.922000        01:20     
+2         1.325722    1.468501    0.620000  0.950000        01:19     
+3         1.138281    1.114547    0.760000  0.966000        01:19     
+4         0.975000    0.888913    0.846000  0.986000        01:20     
+/home/yangyouucb/.fastai/data/imagenette-160
+epoch     train_loss  valid_loss  accuracy  top_k_accuracy  time    
+0         1.636751    2.516993    0.320000  0.884000        01:20     
+1         1.438929    3.341420    0.330000  0.884000        01:16     
+2         1.328617    1.381987    0.618000  0.940000        01:17     
+3         1.143502    1.027409    0.794000  0.976000        01:22     
+4         0.990502    0.867430    0.862000  0.984000        01:19     
+/home/yangyouucb/.fastai/data/imagenette-160
+epoch     train_loss  valid_loss  accuracy  top_k_accuracy  time    
+0         1.668110    3.723747    0.326000  0.760000        01:17     
+1         1.453170    1.880237    0.432000  0.882000        01:20     
+2         1.312951    1.460938    0.584000  0.904000        01:17     
+3         1.159632    1.075279    0.758000  0.970000        01:22     
+4         0.985755    0.874843    0.860000  0.984000        01:23     
+/home/yangyouucb/.fastai/data/imagenette-160
+epoch     train_loss  valid_loss  accuracy  top_k_accuracy  time    
+0         1.658465    2.442239    0.422000  0.788000        01:17     
+1         1.432814    1.570940    0.552000  0.916000        01:17     
+2         1.313843    1.196441    0.718000  0.962000        01:20     
+3         1.144222    1.239475    0.706000  0.960000        01:21     
+4         0.984211    0.875648    0.856000  0.988000        01:20     
+/home/yangyouucb/.fastai/data/imagenette-160
+epoch     train_loss  valid_loss  accuracy  top_k_accuracy  time    
+0         1.684230    4.921929    0.282000  0.780000        01:19     
+1         1.475731    1.987414    0.470000  0.862000        01:17     
+2         1.316378    1.510587    0.566000  0.932000        01:23     
+3         1.129814    1.139146    0.728000  0.972000        01:21     
+4         0.988237    0.879628    0.856000  0.988000        01:19     
+/home/yangyouucb/.fastai/data/imagenette-160
+epoch     train_loss  valid_loss  accuracy  top_k_accuracy  time    
+0         1.696673    2.507909    0.388000  0.822000        01:19     
+1         1.471467    1.684902    0.500000  0.888000        01:18     
+2         1.352848    1.667827    0.544000  0.910000        01:19     
+3         1.153010    1.109105    0.754000  0.958000        01:21     
+4         0.979225    0.889796    0.846000  0.982000        01:18     
+/home/yangyouucb/.fastai/data/imagenette-160
+epoch     train_loss  valid_loss  accuracy  top_k_accuracy  time    
+0         1.693060    1.937598    0.498000  0.820000        01:21     
+1         1.461722    2.192525    0.386000  0.792000        01:20     
+2         1.315937    1.434866    0.634000  0.940000        01:19     
+3         1.146334    1.131981    0.756000  0.966000        01:21     
+4         0.984138    0.866951    0.852000  0.986000        01:16     
+/home/yangyouucb/.fastai/data/imagenette-160
+epoch     train_loss  valid_loss  accuracy  top_k_accuracy  time    
+0         1.636755    2.644168    0.260000  0.812000        01:18     
+1         1.459693    1.798021    0.462000  0.866000        01:19     
+2         1.330297    1.387070    0.644000  0.934000        01:20     
+3         1.150865    1.215086    0.694000  0.974000        01:18     
+4         0.988125    0.871777    0.856000  0.988000        01:19     
+/home/yangyouucb/.fastai/data/imagenette-160
+epoch     train_loss  valid_loss  accuracy  top_k_accuracy  time    
+0         1.683246    2.377536    0.298000  0.856000        01:18     
+1         1.452806    2.004987    0.454000  0.926000        01:19     
+2         1.336231    1.766455    0.498000  0.892000        01:23     
+3         1.172833    1.086818    0.770000  0.952000        01:18     
+4         0.990063    0.871264    0.858000  0.990000        01:18     
+/home/yangyouucb/.fastai/data/imagenette-160
+epoch     train_loss  valid_loss  accuracy  top_k_accuracy  time    
+0         1.653990    2.084013    0.428000  0.834000        01:19     
+1         1.448110    1.484491    0.626000  0.926000        01:20     
+2         1.326022    1.467074    0.598000  0.934000        01:18     
+3         1.139041    1.122768    0.760000  0.972000        01:21     
+4         0.980568    0.880055    0.854000  0.984000        01:20     
+/home/yangyouucb/.fastai/data/imagenette-160
+epoch     train_loss  valid_loss  accuracy  top_k_accuracy  time    
+0         1.643422    2.215285    0.384000  0.822000        01:17     
+1         1.467976    1.809317    0.446000  0.930000        01:19     
+2         1.332877    1.512971    0.592000  0.932000        01:19     
+3         1.167585    1.160244    0.726000  0.950000        01:21     
+4         0.992605    0.879625    0.854000  0.990000        01:18     
+/home/yangyouucb/.fastai/data/imagenette-160
+epoch     train_loss  valid_loss  accuracy  top_k_accuracy  time    
+0         1.655260    3.432333    0.378000  0.790000        01:20     
+1         1.447851    1.722379    0.534000  0.888000        01:21     
+2         1.322966    2.245825    0.366000  0.832000        01:19     
+3         1.146093    1.051079    0.780000  0.968000        01:21     
+4         0.979626    0.861109    0.860000  0.986000        01:20     
+/home/yangyouucb/.fastai/data/imagenette-160
+epoch     train_loss  valid_loss  accuracy  top_k_accuracy  time    
+0         1.648003    3.377604    0.288000  0.764000        01:19     
+1         1.446766    1.560108    0.614000  0.914000        01:18     
+2         1.332044    1.379476    0.636000  0.940000        01:23     
+3         1.137894    1.032236    0.792000  0.968000        01:20     
+4         0.983856    0.874476    0.866000  0.984000        01:20     
+[0.86  0.858 0.858 0.862 0.862 0.876 0.868 0.846 0.862 0.86  0.856 0.856 0.846 0.852 0.856 0.858 0.854 0.854 0.86
+ 0.866]
+mean = 0.8585000038146973, std = 0.006749068386852741, ci-95 = (0.8552592766993484, 0.8617407130486526)
