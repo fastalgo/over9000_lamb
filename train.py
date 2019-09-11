@@ -75,7 +75,6 @@ def train(
         sched_type: Param("LR schedule type", str)='one_cycle',
         ann_start: Param("Mixup", float)=-1.0,
         weight_decay: Param("weight decay", float)=0.01,
-        warm_up: Param("warm up", float)=0.3,
         ):
     "Distributed training of Imagenette."
     
@@ -106,7 +105,7 @@ def train(
     learn = (Learner(data, m(c_out=10, sa=sa, sym=sym), wd=1e-2, opt_func=opt_func,
              metrics=[accuracy,top_k_accuracy],
              bn_wd=False, true_wd=True,
-             loss_func = LabelSmoothingCrossEntropy(0.1),
+             loss_func = LabelSmoothingCrossEntropy(),
              callback_fns=[log_cb])
             )
     print(learn.path)
@@ -124,8 +123,7 @@ def train(
         learn.recorder.plot()
     else:
         if sched_type == 'one_cycle': 
-            #learn.fit_one_cycle(epochs, lr, div_factor=10, pct_start=0.3)
-            learn.fit_one_cycle(epochs, lr, div_factor=10, pct_start=warm_up)
+            learn.fit_one_cycle(epochs, lr, div_factor=10, pct_start=0.3)
         elif sched_type == 'flat_and_anneal': 
             fit_with_annealing(learn, epochs, lr, ann_start)
     
@@ -154,11 +152,10 @@ def main(
         sched_type: Param("LR schedule type", str)='one_cycle',
         ann_start: Param("Mixup", float)=-1.0,
         weight_decay: Param("weight decay", float)=0.01,
-        warm_up: Param("warm up", float)=0.3,
         ):
 
     acc = np.array(
-        [train(gpu,woof,lr,size,alpha,mom,eps,epochs,bs,mixup,opt,arch,sa,sym,dump,lrfinder,log,sched_type,ann_start,weight_decay,warm_up)
+        [train(gpu,woof,lr,size,alpha,mom,eps,epochs,bs,mixup,opt,arch,sa,sym,dump,lrfinder,log,sched_type,ann_start,weight_decay)
                 for i in range(run)])
     
     print(acc)
